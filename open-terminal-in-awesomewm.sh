@@ -15,7 +15,7 @@ echo $ISAWESOMEORNOT
 
 if [ $ISAWESOMEORNOT -o "string" ]
 then
-echo "You are using awesomewm, run code." && st && echo ""
+echo "You are using awesomewm, run code." && xfce4-terminal && echo ""
 exit
 if ! [ $ISAWESOMEORNOT -o "string" ]
 then
