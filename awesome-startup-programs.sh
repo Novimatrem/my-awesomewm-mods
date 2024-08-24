@@ -1,5 +1,5 @@
 #!/bin/bash
-# awesome-startup-programs.sh v1
+# awesome-startup-programs.sh v2
 cd "$(dirname "$0")"
 
 clear
@@ -11,6 +11,14 @@ sleep 0.166s
 echo "[STARTED] Starting all the startup programs..."
 sleep 0.166s
 
+# scratch ideas
+# all my scripts that i made
+# all that i had previously autostarting in xfce4
+# caffeine
+# caffeine-indicator
+# dropbox
+# wise reminder
+# /ideas
 
 # +Start of apps
 
