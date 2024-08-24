@@ -1,5 +1,5 @@
 #!/bin/bash
-# awesome-startup-programs.sh v2
+# awesome-startup-programs.sh v3
 cd "$(dirname "$0")"
 
 clear
@@ -12,12 +12,13 @@ echo "[STARTED] Starting all the startup programs..."
 sleep 0.166s
 
 # scratch ideas
-# all my scripts that i made
-# all that i had previously autostarting in xfce4
+# all my scripts that i made that i want to run
 # caffeine
 # caffeine-indicator
 # dropbox
 # wise reminder
+# wine-development "/home/zoeymeowy/.wine/drive_c/Program Files (x86)/Wise/Wise Reminder/WiseReminder.exe"
+# removesteamlaunchers
 # /ideas
 
 # +Start of apps
