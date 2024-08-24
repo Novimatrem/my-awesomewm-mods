@@ -1,5 +1,5 @@
 #!/bin/bash
-# awesome-startup-programs.sh v3
+# awesome-startup-programs.sh v5
 cd "$(dirname "$0")"
 
 clear
@@ -15,7 +15,6 @@ sleep 0.166s
 # all my scripts that i made that i want to run
 # caffeine
 # caffeine-indicator
-# dropbox
 # wise reminder
 # wine-development "/home/zoeymeowy/.wine/drive_c/Program Files (x86)/Wise/Wise Reminder/WiseReminder.exe"
 # removesteamlaunchers
@@ -39,6 +38,8 @@ sleep 0s && nohup steam && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && 
 # xfce4-appfinder
 sleep 0s && nohup xfce4-appfinder && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown && echo ""
 
+# Dropbox
+sleep 0s && nohup flatpak run com.dropbox.Client && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown && echo ""
 
 # /End of apps
 
