@@ -1,0 +1,16 @@
+"xdotool key Shift+N"
+ 	 b:9
+"bash /opt/super-lock-key/slk.sh"
+ 	 Scroll_Lock
+"bash /opt/alt-f4-if-in-awesomewm.sh"
+ 	 Mod1 + F4
+"bash /opt/open-thunar-in-awesomewm.sh"
+ 	 Mod4 + E
+"bash /opt/open-terminal-in-awesomewm.sh"
+ 	 Control + Alt + T
+"bash /opt/open-screenshot-in-awesomewm.sh"
+ 	 Print
+"bash /opt/open-ff-in-awesomewm.sh"
+ 	 Control + Alt + F
+"bash /opt/open-appfinder-in-awesomewm.sh"
+ 	 Mod1 + F3
