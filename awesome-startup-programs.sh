@@ -1,5 +1,5 @@
 #!/bin/bash
-# awesome-startup-programs.sh v8
+# awesome-startup-programs.sh v9
 cd "$(dirname "$0")"
 
 clear
@@ -12,7 +12,11 @@ echo "[STARTED] Starting all the startup programs..."
 sleep 0.166s
 
 # scratch ideas
-# all my scripts that i made that i want to run
+# all my scripts that i made that i want to run:
+# THOSE BEING:
+
+# stuff from "My software preference"
+
 # /ideas
 
 # +Start of apps
