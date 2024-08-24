@@ -1,5 +1,5 @@
 #!/bin/bash
-# awesome-startup-programs.sh v6
+# awesome-startup-programs.sh v7
 cd "$(dirname "$0")"
 
 clear
@@ -13,8 +13,6 @@ sleep 0.166s
 
 # scratch ideas
 # all my scripts that i made that i want to run
-# wise reminder
-# wine-development "/home/zoeymeowy/.wine/drive_c/Program Files (x86)/Wise/Wise Reminder/WiseReminder.exe"
 # removesteamlaunchers
 # /ideas
 
@@ -44,6 +42,9 @@ sleep 0s && nohup caffeine && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out 
 
 # caffeine-indicator
 sleep 0s && nohup caffeine-indicator && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown && echo ""
+
+# wise reminder
+sleep 0s && nohup wine-development "/home/zoeymeowy/.wine/drive_c/Program Files (x86)/Wise/Wise Reminder/WiseReminder.exe" && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown && echo ""
 
 # /End of apps
 
