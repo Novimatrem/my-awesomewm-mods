@@ -13,7 +13,6 @@ sleep 0.166s
 
 # scratch ideas
 # all my scripts that i made that i want to run
-# removesteamlaunchers
 # /ideas
 
 # +Start of apps
