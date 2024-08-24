@@ -1,5 +1,5 @@
 #!/bin/bash
-# awesome-startup-programs.sh v7
+# awesome-startup-programs.sh v8
 cd "$(dirname "$0")"
 
 clear
@@ -45,6 +45,10 @@ sleep 0s && nohup caffeine-indicator && rm -rf $HOME/nohup.out && rm -rf $(pwd)/
 
 # wise reminder
 sleep 0s && nohup wine-development "/home/zoeymeowy/.wine/drive_c/Program Files (x86)/Wise/Wise Reminder/WiseReminder.exe" && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown && echo ""
+
+
+# remove steam launchers
+sleep 0s && nohup bash "/opt/removesteamslaunchers.sh" && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown && echo ""
 
 # /End of apps
 
