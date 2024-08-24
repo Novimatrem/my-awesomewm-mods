@@ -1,5 +1,5 @@
 #!/bin/bash
-# awesome-startup-programs.sh v9
+# awesome-startup-programs.sh v10
 cd "$(dirname "$0")"
 
 clear
@@ -10,14 +10,6 @@ echo ""
 sleep 0.166s
 echo "[STARTED] Starting all the startup programs..."
 sleep 0.166s
-
-# scratch ideas
-# all my scripts that i made that i want to run:
-# THOSE BEING:
-
-# stuff from "My software preference"
-
-# /ideas
 
 # +Start of apps
 
@@ -55,6 +47,8 @@ sleep 0s && nohup bash "/opt/removesteamslaunchers.sh" && rm -rf $HOME/nohup.out
 
 # /End of apps
 
+# set wallpaper
+feh --bg-scale /opt/awesomewm-wallpaper.png
 
 # Cleanup
 sleep 0s && nohup echo "" && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown
