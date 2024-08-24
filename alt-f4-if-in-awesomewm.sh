@@ -15,7 +15,7 @@ echo $ISAWESOMEORNOT
 
 if [ $ISAWESOMEORNOT -o "string" ]
 then
-echo "You are using awesomewm, run code." && wctrl -c :ACTIVE: &
+echo "You are using awesomewm, run code." && wmctrl -c :ACTIVE: &
 exit
 if ! [ $ISAWESOMEORNOT -o "string" ]
 then
