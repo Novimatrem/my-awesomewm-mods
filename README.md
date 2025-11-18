@@ -1,3 +1,11 @@
+# to install awesomewm itself
+
+```
+sudo apt install -y awesome
+sudo apt install -y awesome-doc
+sudo apt install -y awesome-extra
+```
+
 # to use these scripts
 
 Enter the following commands to append code into your ``.xbindkeysrc`` to allow launching these script with keys;
@@ -27,3 +35,4 @@ and then run it again, so you can make use of the keybind in your current sessio
 ```xbindkeys```
 
 That's it!
+
