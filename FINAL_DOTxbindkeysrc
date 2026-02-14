@@ -10,7 +10,7 @@
  	 Control + Alt + T
 "bash /opt/open-screenshot-in-awesomewm.sh"
  	 Print
-"bash /opt/open-ff-in-awesomewm.sh"
+"bash /opt/open-falkon-in-awesomewm.sh"
  	 Control + Alt + F
 "bash /opt/open-appfinder-in-awesomewm.sh"
  	 Mod1 + F3
